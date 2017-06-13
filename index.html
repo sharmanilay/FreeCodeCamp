@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<head>
+	<title>My Calculator</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/mathjs/3.13.3/math.js"></script>
+  
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+  
+
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	
+	<script type="text/javascript" src="JS/javascript.js"></script>
+</head>
+
+<body>
+	<div>
+	<h1><a href="#">THE WEIRD CALCULATOR</a></h1>
+	</div>
+
+	<div class="container" id="calculator">
+		 <div id='entrybox' class='text-right'>
+      			<div id='entry'>
+        			<p id='answer'>0</p>
+      			</div>
+      			<br>
+      			<div id='history'>
+        			<p>0</p>
+      			</div>
+    	</div>
+    	<br>
+    	<br>
+		<div class="buttons">
+		<span>
+			<button class="blue" value="reset" onclick="func()">CE</button>
+			<button class="blue" value="reset" onclick="func()">AC</button>
+			<button class="blue" value="/">&divide;</button>
+			<button class="blue" value="*">x</button>
+		</span>	
+			<br>
+		<span>
+			<button class="number" value="1">1</button>
+			<button class="number" value="2">2</button>
+			<button class="number" value="3">3</button>
+			<button class="blue" value="+" onclick="ADD()">+</button>
+		</span>	
+			<br>
+		<span>	
+			<button class="number" value="4">4</button>
+			<button class="number" value="5">5</button>
+			<button class="number" value="6">6</button>
+			<button class="blue" value="-" onclick="SUB()">-</button>
+		</span>	
+			<br>
+		<span>	
+			<button class="number" value="7">7</button>
+			<button class="number" value="8">8</button>
+			<button class="number" value="9">9</button>
+			<button class="blue" value="%">%</button>
+		</span>
+				<br>
+		<span>
+			<button class="number zero" value="0">0</button>
+			<button class="number" value=".">.</button>
+		</span>		
+			<span>
+			<button class="blue equal" value="=">=</button>
+			</span>
+			<br>
+			
+
+		</div>
+
+
+	</div>
+
+
+
+
+
+
+
+
+</body>
